@@ -16,6 +16,9 @@ In this section, the focus of the Kickstarter data was narrowed using a pivot ta
 
 ![pivot settings](resources/Theater_Outcomes_vs_Launch_pivot_settings.png)
 
+These settings resulted in the following table (after applying the appropriate table and column filters):
+![pivot settings](resources/Theater_Outcomes_vs_Launch_pivot_table.png)
+
 Inspection of the monthly outcomes shows that each month had roughly 100 Kickstarter attempts made (with December having the fewest, at 75, and May having the most, at 166).
 
 A visual summary of the pivot data was then created by generating a [line graph](resources/Theater_Outcomes_vs_Launch.png) (note the hyperlink) using Excel's PivotChart feature. (The graph, itself, appears below in the Results section.)
