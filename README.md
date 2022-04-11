@@ -38,7 +38,7 @@ A visual summary of the table data was then created by generating a [line graph]
 Note that the line for canceled plays lies flat across the bottom (due to there being no canceled plays, as noted, above), and that the graphs for successful and failed plays are symmetric about the 50% line. (This is a natural outcome of there being only two outcomes with non-zero values and of the proportions always totaling 100%.)
 
 ### Challenges and Difficulties Encountered
-Each analysis presented different challenges. Details are presented, below.
+Each analysis presented different challenges. Details are presented below.
 
 #### For Outcomes Based on Launch Date
 The pivot table required a filter based on the year of the productions' launch dates, but the dates in the original data were in full-date formats. This required the creation of an additional, calculated column to extract the year from those full dates.
@@ -61,7 +61,7 @@ The data seeks to answer the following questions:
 - What are some limitations of this dataset?
 - What are some other possible tables and/or graphs that we could create?
 
-Despite their simple appearance, the answers to these questions are complex, and will be addressed below.
+Despite these questions' simple appearance, their answers are complex, and will be addressed below.
 
 ### Outcomes Based on Launch Date
 Looking at the graph of Theater Outcomes based on Launch Date:
