@@ -61,7 +61,7 @@ Despite their simple appearance, the answers to these questions are complex, and
 
 ### Outcomes Based on Launch Date
 Looking at the graph of Theater Outcomes based on Launch Date:
-![Theater outcomes based on launch date](resources/Outcomes_vs_Goals.png)
+![Theater outcomes based on launch date](resources/Theater_Outcomes_vs_Launch.png)
 
 #### Apparent Conclusions
 It appears, at first glance, as if:
