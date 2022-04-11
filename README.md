@@ -16,7 +16,7 @@ In this section, the focus of the Kickstarter data was narrowed using a pivot ta
 
 Inspection of the monthly outcomes shows that each month had roughly 100 Kickstarter attempts made (with December having the fewest, at 75, and May having the most, at 166).
 
-A visual summary of the pivot data was then created by generating a [line graph](resources/Theater_Outcomes_vs_Launch.png) using Excel's PivotChart feature. (The graph, itself, appears below in the Results section.)
+A visual summary of the pivot data was then created by generating a [line graph](resources/Theater_Outcomes_vs_Launch.png) (note the hyperlink) using Excel's PivotChart feature. (The graph, itself, appears below in the Results section.)
 
 ### Analysis of Outcomes Based on Goals
 In this section, the focus of the Kickstarter data was narrowed by calculating specific values from the main data using Excel formulas.
@@ -29,7 +29,7 @@ Additional columns were then added to calculate 'Total Projects' (a simple sum o
 
 Inspection of table shows that there are a relatively large number (800+) of Kickstarter plays with low-value goals (below 10,000 units), with the numbers dropping of significantly (158 plays, in total) at goals of 10000 or more. Additionally, out of more than 1,000 plays in the data set, **none** had a canceled outcome.
 
-A visual summary of the table data was then created by generating a [line graph](resources/Outcomes_vs_Goals.png) using Excel. The graph shows the percentage of plays that succeeded, failed, or were canceled relative to each goal-value bin (and can be seen, below, in the Results section).
+A visual summary of the table data was then created by generating a [line graph](resources/Outcomes_vs_Goals.png) (note hyperlink) using Excel. The graph shows the percentage of plays that succeeded, failed, or were canceled relative to each goal-value bin (and can be seen, below, in the Results section).
 
 Note that the line for canceled plays lies flat across the bottom (due to there being no canceled plays, as noted, above), and that the graphs for successful and failed plays are symmetric about the 50% line. (This is a natural outcome of there being only two outcomes with non-zero values and of the proportions always totaling 100%.)
 
