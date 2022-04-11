@@ -14,6 +14,8 @@ For each of those data subsets, created a line graph to illustrate how theater K
 ### Analysis of Outcomes Based on Launch Date
 In this section, the focus of the Kickstarter data was narrowed using a pivot table. The table was given filters based on the category of the Kickstarter—which, in this case, was set to 'theater'—and on the year of the Kickstarter's launch date. The rows of the table were set to show the launch date months—attained from the 'date created conversion' column—and the columns were set to show the outcomes of the Kickstarters (whether successful, failed, or canceled). The cells within the table were set to count the number of Kickstarters that matched that cell's row and column criteria.
 
+![pivot settings](resources/Theater_Outcomes_vs_Launch_pivot_settings.png)
+
 Inspection of the monthly outcomes shows that each month had roughly 100 Kickstarter attempts made (with December having the fewest, at 75, and May having the most, at 166).
 
 A visual summary of the pivot data was then created by generating a [line graph](resources/Theater_Outcomes_vs_Launch.png) (note the hyperlink) using Excel's PivotChart feature. (The graph, itself, appears below in the Results section.)
@@ -26,6 +28,8 @@ Pledge-goal-value "bins" were created, with each spanning roughly 5000 units. (T
 The interior of the table was populated by counting the number of Kickstarters with subcategory type 'plays' whose goal values correspond with that row's respective bin and whose outcomes correspond with that column's respective outcome.
 
 Additional columns were then added to calculate 'Total Projects' (a simple sum of all plays in that row's bin) and the percentage of successful, failed, and canceled Kickstarters whose goals match a given row's bin values (calculated by dividing the number of relevant projects by the number of total projects matching that row's bin).
+
+![Outcomes Based on Goals](resources/Outcomes_vs_Goals_table.png)
 
 Inspection of table shows that there are a relatively large number (800+) of Kickstarter plays with low-value goals (below 10,000 units), with the numbers dropping of significantly (158 plays, in total) at goals of 10000 or more. Additionally, out of more than 1,000 plays in the data set, **none** had a canceled outcome.
 
